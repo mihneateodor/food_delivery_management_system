@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="386.0" y="310.0">presentationLayer.EmployeeGUI</node>
+    <node x="44.0" y="235.0">businessLayer.DeliveryService</node>
+    <node x="0.0" y="535.0">presentationLayer.View1</node>
+    <node x="133.0" y="535.0">businessLayer.Order</node>
+    <node x="399.0" y="535.0">main.Main</node>
+    <node x="165.0" y="460.0">presentationLayer.AdminGUI</node>
+    <node x="322.0" y="460.0">businessLayer.Employee</node>
+    <node x="100.0" y="0.0">businessLayer.MenuItem</node>
+    <node x="0.0" y="80.0">businessLayer.BaseProduct</node>
+    <node x="301.0" y="155.0">presentationLayer.RegisterClient</node>
+    <node x="0.0" y="460.0">presentationLayer.ClientGUI</node>
+    <node x="0.0" y="385.0">presentationLayer.LogInClient</node>
+    <node x="181.0" y="385.0">controller.Controller</node>
+    <node x="197.0" y="310.0">dataLayer.Serializator</node>
+    <node x="0.0" y="155.0">businessLayer.IDeliveryServiceProcessing</node>
+    <node x="479.0" y="460.0">businessLayer.Client</node>
+    <node x="524.0" y="535.0">businessLayer.Date</node>
+    <node x="0.0" y="310.0">presentationLayer.LogInEmployee</node>
+    <node x="354.0" y="385.0">presentationLayer.LogInAdmin</node>
+    <node x="156.0" y="80.0">businessLayer.CompositeProduct</node>
+    <node x="266.0" y="535.0">businessLayer.Admin</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="businessLayer.DeliveryService" target="businessLayer.IDeliveryServiceProcessing">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="businessLayer.CompositeProduct" target="businessLayer.MenuItem">
+      <point x="0.0" y="-15.0" />
+      <point x="244.0" y="55.0" />
+      <point x="184.0" y="55.0" />
+      <point x="28.0" y="15.0" />
+    </edge>
+    <edge source="businessLayer.BaseProduct" target="businessLayer.MenuItem">
+      <point x="0.0" y="-15.0" />
+      <point x="68.0" y="55.0" />
+      <point x="128.0" y="55.0" />
+      <point x="-28.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="902.2539682539684" y="489.2857142857142" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
